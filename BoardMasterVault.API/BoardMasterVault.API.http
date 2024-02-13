@@ -1,0 +1,6 @@
+@BoardMasterVault.API_HostAddress = http://localhost:5166
+
+GET {{BoardMasterVault.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
