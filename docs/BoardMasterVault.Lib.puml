@@ -1,0 +1,10 @@
+﻿@startuml
+package "BoardMasterVault.Lib" {
+    [Data Access]
+    [Models]
+    [Services]
+
+    [Services] --> [Data Access]
+    [Services] --> [Models]
+}
+@enduml

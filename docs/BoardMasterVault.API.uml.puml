@@ -1,0 +1,11 @@
+﻿@startuml
+package "BoardMasterVault.API" {
+    [Controllers]
+    [Models]
+    [Services]
+
+    [Startup] --> [Controllers]
+    [Controllers] --> [Services]
+    [Controllers] --> [Models]
+}
+@enduml
